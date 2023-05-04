@@ -1,0 +1,29 @@
+Package: HoneyBADGER
+Type: Package
+Title: HMM-integrated Bayesian approach for detecting CNV and LOH events using single-cell RNA-seq data
+Version: 0.1
+Date: 2017-2-27
+Author: Jean Fan [aut, cre]
+Maintainer: Jean Fan <jeanfan@fas.harvard.edu>
+Description: The HoneyBADGER package implements a set of statistical methods for detecting copy number variation and loss of heterozygosity events using single-cell RNA-seq data.
+License: GPL-3
+LazyData: TRUE
+Imports:
+	GenomicRanges,
+	RColorBrewer,
+	caTools,
+	ggplot2,
+	reshape2,
+  gridExtra,
+	rjags,
+	coda,
+	parallel,
+	HiddenMarkov,
+	GenomicFeatures,
+	AnnotationDbi,
+	TxDb.Hsapiens.UCSC.hg19.knownGene
+RoxygenNote: 6.0.1
+Suggests: 
+  knitr,
+  rmarkdown
+VignetteBuilder: knitr
