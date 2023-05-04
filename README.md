@@ -1,0 +1,6 @@
+# HoneyBADGER-Experimentation
+Experimentation of dimensionality reduction &amp; allele frequency normalization in HoneyBADGER approach to CNV detection. 
+
+The HoneyBADGER folder is originally from a forked repository of HoneyBADGER. The added file project.R is where the simulation framework and processing occurs, whereas R/HoneyBADGER.R is where the code for the library lives and additional functions have been added for the experimental changes to HoneyBADGER assessed in this project. Experimental output data is saved into the two tmp_sim_data folders, and the visualization of the data was done in the python notebook visualize_data.ipynb. Required libraries should be installed in the project.R folder. Code should run on a local instance but does not run fast and can take several hours or longer depending on parameters. Both project.R and the visualize_data.ipynb notebook using working directory strings as highlighted by comments that may need to be altered to run code. 
+
+I ran this code by opening the HoneyBADGER folder in R studio and running the Project.R file, which will simulate deletes and generate desired output. I then ran all cells in the visualize_data.ipynb notebook to generate and analyze the relevant output. 
